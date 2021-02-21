@@ -171,7 +171,6 @@
   "pkg": {
     "name": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
     "version": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
     "main": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
       "start": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
@@ -191,7 +190,8 @@
       "npm-run-all": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
     },
     "webpackConfig": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
-    "friday": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    "friday": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
   },
   "baseDir": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
   "HOME": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
