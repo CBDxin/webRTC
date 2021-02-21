@@ -1,0 +1,6 @@
+2021-02-21 16:15:28,654 INFO 13184 [egg-schedule]: register schedule D:\workspace\webRTC\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-21 16:15:28,654 INFO 13184 [egg-schedule]: register schedule D:\workspace\webRTC\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-21 16:15:28,654 INFO 13184 [egg-schedule]: register schedule D:\workspace\webRTC\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-21 16:15:29,057 INFO 7668 [Timer] D:\workspace\webRTC\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 44070949ms at 2021-02-22 04:30:00.006
+2021-02-21 16:15:29,058 INFO 7668 [Timer] D:\workspace\webRTC\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27870943ms at 2021-02-22 00:00:00.001
+2021-02-21 16:15:29,058 INFO 7668 [Timer] D:\workspace\webRTC\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27871942ms at 2021-02-22 00:00:01.000

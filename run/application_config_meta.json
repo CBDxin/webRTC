@@ -1,0 +1,286 @@
+{
+  "keys": "D:\\workspace\\webRTC\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\workspace\\webRTC\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "D:\\workspace\\webRTC\\config\\config.default.js"
+    },
+    "root": "D:\\workspace\\webRTC\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\workspace\\webRTC\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\workspace\\webRTC\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "httpProxy": {
+    "/public": {
+      "target": "D:\\workspace\\webRTC\\config\\config.local.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\workspace\\webRTC\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\workspace\\webRTC\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\workspace\\webRTC\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\workspace\\webRTC\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\workspace\\webRTC\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\workspace\\webRTC\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\workspace\\webRTC\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\workspace\\webRTC\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\workspace\\webRTC\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\workspace\\webRTC\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\workspace\\webRTC\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\workspace\\webRTC\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\workspace\\webRTC\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\workspace\\webRTC\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\workspace\\webRTC\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\workspace\\webRTC\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\workspace\\webRTC\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\workspace\\webRTC\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\workspace\\webRTC\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\workspace\\webRTC\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\workspace\\webRTC\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\workspace\\webRTC\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\workspace\\webRTC\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\workspace\\webRTC\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\workspace\\webRTC\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\workspace\\webRTC\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\workspace\\webRTC\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\workspace\\webRTC\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\workspace\\webRTC\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\workspace\\webRTC\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\workspace\\webRTC\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\workspace\\webRTC\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\workspace\\webRTC\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\workspace\\webRTC\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\workspace\\webRTC\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\workspace\\webRTC\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\webRTC\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "D:\\workspace\\webRTC\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\workspace\\webRTC\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\workspace\\webRTC\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\workspace\\webRTC\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\workspace\\webRTC\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "start": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "client": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "egg-http-proxy": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "llb-cli": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "npm-run-all": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    },
+    "webpackConfig": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "friday": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\workspace\\webRTC\\node_modules\\egg\\config\\config.default.js"
+}

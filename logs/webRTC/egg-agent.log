@@ -1,0 +1,12 @@
+2021-02-21 16:15:26,947 INFO 7668 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webRTC\\logs\\webRTC","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webRTC-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-02-21 16:15:26,971 INFO 7668 [egg:core] dump config after load, 8ms
+2021-02-21 16:15:27,033 INFO 7668 [egg-watcher] Start watching: ["D:\\workspace\\webRTC\\app","D:\\workspace\\webRTC\\config","D:\\workspace\\webRTC\\mocks","D:\\workspace\\webRTC\\mocks_proxy","D:\\workspace\\webRTC\\app.js"]
+2021-02-21 16:15:27,033 INFO 7668 [egg-watcher] Start watching: "D:\\workspace\\webRTC\\app"
+2021-02-21 16:15:27,034 INFO 7668 [egg-watcher] Start watching: "D:\\workspace\\webRTC\\config"
+2021-02-21 16:15:27,034 INFO 7668 [egg-watcher] Start watching: "D:\\workspace\\webRTC\\mocks"
+2021-02-21 16:15:27,034 INFO 7668 [egg-watcher] Start watching: "D:\\workspace\\webRTC\\mocks_proxy"
+2021-02-21 16:15:27,034 INFO 7668 [egg-watcher] Start watching: "D:\\workspace\\webRTC\\app.js"
+2021-02-21 16:15:27,035 INFO 7668 [egg-watcher:agent] watcher start success
+2021-02-21 16:15:27,057 INFO 7668 [egg:core] dump config after ready, 16ms
+2021-02-21 16:15:27,708 INFO 7668 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\workspace\\webRTC\\app\\public\\bundle.js","remove":true,"isDirectory":false,"isFile":false}
+2021-02-21 16:15:28,112 INFO 7668 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\workspace\\webRTC\\app\\public","stat":{"dev":2423358133,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424931175872,"size":0,"atimeMs":1613895327706.9263,"mtimeMs":1613895327706.9263,"ctimeMs":1613895327706.9263,"birthtimeMs":1613894974083.3635,"atime":"2021-02-21T08:15:27.707Z","mtime":"2021-02-21T08:15:27.707Z","ctime":"2021-02-21T08:15:27.707Z","birthtime":"2021-02-21T08:09:34.083Z"},"remove":false,"isDirectory":true,"isFile":false}
