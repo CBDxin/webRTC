@@ -3,7 +3,7 @@ if (module.hot) {
 }
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './MediaStream';
+import App from './RecordScreen';
 
 
 ReactDOM.render(<App />, document.getElementById('app'));
