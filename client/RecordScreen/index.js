@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import PlayerCanvas from "./canvasPlayer";
 import CanvasPlayer from "./canvasPlayer";
 import "./index.less";
 
@@ -13,6 +12,8 @@ function createStreamVideo(stream) {
 
 function Index() {
 	const videoRef = useRef(null);
+	const rvideoRef = useRef(null);
+	const recorderRef = useRef(null);
 
 	useEffect(() => {
 		initVideo();
@@ -38,11 +39,30 @@ function Index() {
 		console.log(stream);
 
 		videoRef.current.srcObject = stream;
+
+		recorderRef.current = new MediaRecorder(stream, { mineType: "video/webm;codecs=h264" });
+		recorderRef.current.ondataavailable = e => {
+			console.log("recorder -----", e);
+			rvideoRef.current.src = URL.createObjectURL(e.data);
+		};
+	};
+
+	const startRecord = () => {
+		console.log(recorderRef.current)
+		recorderRef.current && recorderRef.current.start();
+	};
+
+	const stopRecord = () => {
+		console.log(recorderRef.current)
+		recorderRef.current && recorderRef.current.stop();
 	};
 
 	return (
 		<div className="recorder">
 			<video ref={videoRef} muted autoPlay controls></video>
+			<button onClick={startRecord} className="btn">开始录制</button>
+			<button onClick={stopRecord} className="btn">停止录制</button>
+			<video ref={rvideoRef} muted autoPlay controls></video>
 		</div>
 	);
 }
